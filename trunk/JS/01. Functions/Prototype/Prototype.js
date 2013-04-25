@@ -1,4 +1,4 @@
-//All object in js has a protype.
+// Access modifiers
 // http://javascript.crockford.com/private.html
 function SuperHeroe( powerIndex ){
 	//public variables or accesible 
