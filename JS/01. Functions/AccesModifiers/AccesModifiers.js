@@ -38,7 +38,6 @@ function SuperHeroe( powerIndex ){
 	
 	//This variables will be accesible ONLY inside this function
 	var kii = powerIndex || Number.MAX_VALUE;
-	
 }
 
 var goku = new SuperHeroe(Math.floor(Math.random()*10) + 1 );
@@ -49,8 +48,9 @@ var superman = new SuperHeroe(Math.floor(Math.random()*10) + 1 );
 superman.number = 2;
 superman.name ="Clark Kent";
 var SingleRound = function (){
+	console.log("args = ", arguments );
 	if ( !goku.punch(superman) ) { clearInterval( intervalId ); }
 	if ( !superman.punch(goku) ) { clearInterval( intervalId ); }
 }
 
-var intervalId = setInterval(SingleRound, 500 );
+var intervalId = setInterval(SingleRound, 500, "llave", 4, 	 "adoisali" );

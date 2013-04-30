@@ -4,13 +4,15 @@ var myNewThis = {
 	value : 1
 };
 function SumNumber( theNumber ){
-	console.log( this.value, " += ", theNumber);
+	console.log( value, " += ", theNumber);
 	this.value += theNumber;
+	console.log(" this.value =" ,this.value );
 }
 
 function SumNumberWithApply( theNumber ){
 	//Now we use apply
-	var arguments = [theNumber];	
+	var arguments = [theNumber];
+
 	SumNumber.apply(myNewThis, arguments);
 }
 
@@ -20,6 +22,8 @@ function SumNumberWithCall( theNumber ){
 }
 
 for( var i= 1; i < 5 ; i ++) SumNumber(i);
+
+
 //Now we use apply
 console.log("with apply");
 for( var i= 1; i < 5 ; i ++) SumNumberWithApply(i);
