@@ -1,0 +1,9 @@
+function OuterFunction(){
+	var number = 123;
+	number = "pegasus sui sen ken";
+	return function() {
+		return "return number " + number;
+	};
+};
+var closure = OuterFunction();
+closure();
