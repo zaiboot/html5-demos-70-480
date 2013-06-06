@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<g id="cirlce">
+		<circle cx="80" cy="50" r="40"/>
+
+		<circle cx="80" cy="110" r="40" fill="red"/>
+		<circle cx="80" cy="170" r="40" fill="yellow" stroke="blue" />
+		<circle cx="80" cy="160" r="20" fill="red" stroke="black" stroke-width="10"/>
+		<circle cx="140" cy="110" r="60" fill="none" stroke="#579" stroke-width="30" stroke-dasharray="3,5,8,13" />
+	</g>
+	<circle cx="340" cy="110" r="60" fill="red" stroke="#579" stroke-width="30" stroke-dasharray="3,5,8,13" />
+	<circle cx="340" cy="110" r="60" fill="none" stroke="black" stroke-width="30" stroke-dasharray="3,5,8,13" >
+		<animate xmlns="http://www.w3.org/2000/svg" attributeName="r" begin="circle.click" dur="4s" values="60;120;60" repeatCount="indefinite"/>
+	</circle>
+</svg>
