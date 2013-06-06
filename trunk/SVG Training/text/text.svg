@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+    <g id="text">
+        <text id="T">
+            <tspan x="100" dy="40" font-family="serif"> My first SVG text W</tspan>
+            <tspan x="100" dy="40" font-family="garamond"> My first SVG text W</tspan>
+            <tspan x="100" dy="40" font-family="arial"> My first SVG text W</tspan>
+            <tspan x="100" dy="40" font-family="monospace"> My first SVG text W</tspan>
+            <tspan x="100" dy="40" font-family="cursive"> My first SVG text W</tspan>
+            <tspan x="100" dy="40" font-family="courier"> My first SVG text W</tspan>
+            <tspan x="100" dy="40" font-family="Bodoni MT Poster Compressed"> My first SVG text W</tspan>
+            <tspan x="100" dy="40" font-family="Blackoak Std"> My first SVG text W</tspan>
+        </text>
+    </g>
+    <linearGradient id="r" >
+        <stop offset="0" stop-color="red"/>
+        <stop offset=".5" stop-color="yellow"/>
+        <stop offset="1" stop-color="green"/>
+    </linearGradient>
+    <g id="WG" transform="translate(0,50) scale(1,1)">
+        <text id="W" x="100" y="600" font-size="350" fill="url(#r)" stroke="black" stroke-width="3" font-family="serif" font-weight="bold">W</text>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<rect x="300" y="300" width="400" height="100" fill="none" stroke="black"/>
+<line x1="220" y1="365" x2="700" y2="365" stroke="grey"/>
+<linearGradient id="gradient1">
+	<stop offset="0.0" stop-color="black"/>
+	<stop offset="1" stop-color="white"/>
+</linearGradient>
+<mask id="Ma">
+	<rect x="300" y="300" width="400" height="100" fill="url(#gradient1)"/>
+</mask>
+
+<text x="220" y="365" font-family="impact" font-size="52" mask="url(#Ma)" fill="black">
+Some Masked Text: it outsprawls its mask</text>
+</svg>

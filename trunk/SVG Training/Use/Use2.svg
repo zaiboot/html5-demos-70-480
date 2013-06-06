@@ -1,0 +1,13 @@
+<svg width="100%" height="100%"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+     <g id="g3" stroke="black" stroke-width="2" fill="none">
+       <g id="g2">
+         <ellipse id="g1" cx="100" cy="100" rx="75" ry="40" />
+         <use xlink:href="#g1" transform="rotate(30 100 100)"/>
+         <use xlink:href="#g1" transform="rotate(60 100 100)"/>
+       </g>
+       <use xlink:href="#g2" transform="rotate(90 100 100)"/>
+     </g>
+</svg>

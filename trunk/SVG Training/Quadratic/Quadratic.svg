@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<path fill-rule="evenodd" d="M 70 140 L 150,0 200,100 L 40,100 100,0 L 170,140 70 140"/>
+
+	<path fill="red" fill-rule="evenodd" d="M 70 140 Q 150,0 200,100 Q 40,100 100,0 Q 170,140 70 140"/>
+</svg>

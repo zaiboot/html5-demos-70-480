@@ -1,0 +1,45 @@
+<svg width="100%" height="100%"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <g id="fig1">
+            <rect x="200" y="100" width="100" height="20" fill="#888" />
+            <rect x="200" y="160" width="100" height="20" fill="#888" /> <!--sdfsdfsdff-->
+            <ellipse cx="250" cy="140" rx="30" ry="100" fill="#bbb" />
+            <rect x="200" y="130" width="100" height="20" fill="#888" />
+        </g>
+    </defs>
+
+    <use xlink:href="#fig1" />
+    <use xlink:href="#fig1" transform="translate(-120,0)" fill="black"/>
+    <use xlink:href="#fig1" transform="translate(120,0)" fill="black"/>
+
+
+
+     <!--<g transform = "translate(-120,0)">
+        <rect x="200" y="100" width="100"
+        height="20" fill="#888" />
+
+        <rect x="200" y="160" width="100"
+        height="20" fill="#888" />
+
+        <ellipse cx="250" cy="140" rx="30"
+        ry="100" fill="#bbb" />
+
+        <rect x="200" y="130" width="100" 
+        height="20" fill="#888" />
+     </g>
+     <g transform = "translate(120,0)" fill="black">
+        <rect x="200" y="100" width="100" 
+        height="20" fill="inherit" /> 
+
+        <rect x="200" y="160" width="100" 
+        height="20" fill="inherit" />
+
+        <ellipse cx="250" cy="140" rx="30"
+        ry="100" fill="#777" />
+
+        <rect x="200" y="130" width="100" 
+        height="20" fill="inherit" />
+     </g>-->
+</svg>

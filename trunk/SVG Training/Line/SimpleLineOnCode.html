@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Simple Red Line</title>
+	</head>
+	<body>
+		<div>
+		    <svg xmlns="http://www.w3.org/2000/svg">
+		    <defs>
+		    	<marker id = "StartMarker" viewBox = "0 0 12 12" refX = "12" refY = "6" markerWidth = "3" markerHeight = "3" stroke = "green" stroke-width = "2" fill = "none" orient = "auto">
+		    		<circle cx = "6" cy = "6" r = "5"/>
+		    	</marker>
+		    	<marker id = "MidMarker" viewBox = "0 0 10 10" refX = "5" refY = "5" markerUnits = "strokeWidth" markerWidth = "3" markerHeight = "3" stroke = "lightblue" stroke-width = "2" fill = "none" orient = "auto">
+		    		<path d = "M 0 0 L 10 10 M 0 10 L 10 0"/>
+		    	</marker>
+		    	<marker id = "EndMarker" viewBox = "0 0 10 10" refX = "5" refY = "5" markerUnits = "strokeWidth" markerWidth = "3" markerHeight = "3" stroke = "red" stroke-width = "2" fill = "none">
+		    		<rect x = "0" y = "0" width = "10" height = "10"/>
+		    	</marker>
+		    </defs>
+		    	<line x1="5" y1="5" stroke="red" x2="190" y2="190" stroke-dasharray ="5,2,10,2" stroke-width="5" marker-end="url(#EndMarker)" />
+		    	<line x1="200" y1="105" stroke="rgb(100,150,50)" x2="190" y2="190" stroke-width="5" stroke-dasharray ="1,5,2,5,10,5" marker-start="url(#StartMarker)" />
+		    	<line x1="100" y1="5" stroke="black" x2="190" y2="190" stroke-linecap="round" stroke-width="5" stroke-dasharray ="10,10" marker-mid="url(#MidMarker)" />
+		    </svg>
+		</div>
+	</body>
+</html>

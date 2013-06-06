@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<path d="M 50,100 150,200 50,150" fill="red" stroke="navy" stroke-width="5"/>
+	<path d="M 350,100 500,200 350,150 z" fill="red" stroke="navy" stroke-width="5"/>
+	<path d="M 100 50 
+		L 200 150 100 100 z M 300 300 L 400 400" fill="none" stroke="blue" stroke-width="5"/>
+	<path stroke="black" d="M 200 200 L 300 250"/>
+
+	<path d="M 70,390 L 150,250 200,350 40,350 100,250 170,390" fill-rule="evenodd"/>
+</svg>

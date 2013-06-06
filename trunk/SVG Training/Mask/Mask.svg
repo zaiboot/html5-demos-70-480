@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<clipPath id="CP">
+		<ellipse cx="330" cy="80" rx="70" ry="25"/>
+	</clipPath>
+
+	<image xlink:href='html5.jpg' x="280" y="0" height="100" width="100"  clip-path="url(#CP)"/>
+	<ellipse cx="330" cy="80" rx="70" ry="25" stroke="red" fill="none"/>
+</svg>
